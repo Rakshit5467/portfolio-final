@@ -151,9 +151,13 @@ a:hover{
     text-align: center;
 }
 
+.details{
+    font-size: 0.9rem;
+}
+
 @media screen and (max-width: 992px){
     .card{
-        height: 180px;
+        height: 190px;
     }
 
     .contact{
