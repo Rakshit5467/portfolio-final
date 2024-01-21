@@ -1,0 +1,168 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+
+.nav-link{
+    color: black;
+}
+.nav-item{
+    padding: 10px;
+}
+
+h1{
+    font-size: 6rem;
+    font-family: 'Robot', sans-serif;
+}
+
+#me{
+    height: 25rem;
+    border: solid black;
+    border-width: 8px 5px 8px 5px;
+    border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+    margin:15px;
+    transform: rotate(5deg);
+    box-shadow: 5px 5px 6px 5px #878787;
+}
+
+.btn{
+    background-color: #CDF5FD;
+}
+.btn:hover{
+    background-color: #00A9FF;
+}
+
+#btn1{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+hr{
+    
+    border: dotted black 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.p1{
+    font-family: 'Satisfy', cursive;
+    font-size: 1.7rem;
+}
+
+.p2{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+span{
+    color: #00A9FF;
+}
+
+.topic{
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.svg{
+    height: 50px;
+}
+
+.svg-circle{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    box-shadow: 4px 4px 10px 2px #B6BBC4;
+    background-color: #A0E9FF;
+    border: solid black;
+    border-width: 3px 1px 3px 1px;
+    border-radius:100%;
+    box-shadow: 2px 2px 6px 3px #878787;
+}
+
+.text{
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h4{
+    color: #89CFF3;
+}
+
+.square{
+    height: 80px;
+    width: 80px;
+    border-radius: 10%;
+    background-color: #E5E1DA;
+}
+
+.svg2{
+    height: 50px;
+}
+
+.contact{
+    display: grid;
+    grid-template-rows: 12em 12em;
+    grid-template-columns: 3fr 2fr;
+}
+
+.card1{
+    grid-row: span 2;
+}
+
+.card{
+    padding: 10px;
+    margin: 10px;
+    border: solid black;
+    border-width: 4px 2px 4px 2px;
+    border-radius:95% 4% 97% 5%/4% 94% 3% 5%;
+    margin:15px;
+    box-shadow: 5px 5px 10px 2px #878787;
+
+}
+
+.card-top{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.bottom-container {
+    background-color: #A0E9FF;
+    padding: 50px 0 20px;
+}
+
+a {
+    color: #75C2F6;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 50px;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px){
+    .card{
+        height: 180px;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #me{
+        height: 20rem;
+    }
+    
+}
